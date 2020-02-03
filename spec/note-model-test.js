@@ -5,6 +5,7 @@
   
   })();
 
+
   (function testShowNote() {
     var note = new Note('hello world')
     assert.isTrue(note.showNote() === 'hello world')
