@@ -10,9 +10,10 @@
  
   }
 
-  NoteList.prototype.add = function(string){
-    var note = new Note(string);
-    this.list.push(note)
+  NoteList.prototype.add = function(note){
+    //var note = new Note(string);
+   
+    this.list.push(note.text)
   }
 
 
