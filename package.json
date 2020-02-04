@@ -16,7 +16,8 @@
     "url": "https://github.com/emilyjspencer/NotesApp/issues"
   },
   "homepage": "https://github.com/emilyjspencer/NotesApp#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "http-server": "^0.12.1"
   }
 }
