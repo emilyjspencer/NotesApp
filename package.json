@@ -1,0 +1,22 @@
+{
+  "name": "note_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testtext.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyjspencer/NotesApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyjspencer/NotesApp/issues"
+  },
+  "homepage": "https://github.com/emilyjspencer/NotesApp#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

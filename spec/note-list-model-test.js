@@ -24,8 +24,10 @@
 (function testShowAllNotes() {
   var noteList = new NoteList();
   var note = new Note("test one")
-  var note1 = new Note("text two")
+  var note1 = new Note("test two")
   noteList.add(note);
   noteList.add(note1);
-  assert.isTrue(noteList.showAllNotes() === "test one", "test two")
+  assert.isTrue(noteList.list[0] === "test one")
+  assert.isTrue(noteList.list[1] === "test two")
+
 })();
