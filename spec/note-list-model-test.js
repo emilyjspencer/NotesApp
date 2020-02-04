@@ -8,11 +8,6 @@
 })();
 
 
-//(function testShowNoteList() {
-//  var notelist = new noteList('hello world')
-//  assert.isTrue(note.showNoteList() === 'hello world')
-// })();
-
 (function testAddNote() {
   var noteList = new NoteList();
   var note = new Note();
@@ -27,3 +22,10 @@
   noteList.add("rubyonrails");
   assert.isTrue(noteList.list[0].showNote() === "rubyonrails")
 })(); 
+
+(function testShowAllNotes() {
+  var noteList = new NoteList();
+  noteList.add("test one");
+  noteList.add("test two");
+  assert.isTrue(noteList.showAllNotes() === "test one", "test two")
+})();

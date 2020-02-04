@@ -15,6 +15,13 @@
     this.list.push(note)
   }
 
+
+  NoteList.prototype.showAllNotes = function() {
+    for (var noteIndex = 0; noteIndex < this.list.length; noteIndex++) {
+      return (this.list[noteIndex].showNote())
+    }
+  }
+
   exports.NoteList = NoteList;
 
 })(this);
