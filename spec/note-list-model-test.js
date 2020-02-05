@@ -6,7 +6,7 @@
 })();
 
 
-(function testAddNote() {
+(function testAddNote() { // add a note 
   var noteList = new NoteList();
   var note = new Note();
   noteList.add(note);
