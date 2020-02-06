@@ -5,7 +5,7 @@
 
 (function testInsertElement() {
     var noteController = new NoteController();
-    var noteController = new Note("hello");
+    var note = new Note("hello");
     var note1 = new Note("bye");
     noteController.addNote(note);
     noteController.addNote(note1);
